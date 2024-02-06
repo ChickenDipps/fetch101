@@ -22,7 +22,7 @@ async function showList(elem, url) {
     data.forEach((item) => {
         const li = document.createElement('li');
         li.textContent = item;
-        elem.appendChild(li);
+        elem.append(li);
     });
 }
 
